@@ -1,7 +1,7 @@
 # fibonacci-agentic
 
-A dependency-free command-line tool that prints the first `COUNT` Fibonacci
-numbers, starting with `0`.
+A dependency-free command-line tool that prints the Fibonacci number at a
+zero-based `INDEX`, starting with `0`.
 
 ## Requirements
 
@@ -11,10 +11,10 @@ Python 3.10 or later.
 
 ```console
 python fibonacci_cli.py 10
-0 1 1 2 3 5 8 13 21 34
+55
 ```
 
-`COUNT` must be a non-negative integer. A count of `0` prints an empty line.
+`INDEX` must be a non-negative integer. An index of `0` prints `0`.
 Invalid or negative input is reported as a command-line error.
 
 ## Tests
