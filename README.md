@@ -5,7 +5,8 @@ zero-based `INDEX`, starting with `0`.
 
 ## Requirements
 
-Python 3.10 or later.
+Python 3.10 or later. To run the Java implementation, install a JDK. To run
+the Haskell implementation, install GHC (including `runghc`).
 
 ## Usage
 
@@ -18,6 +19,21 @@ The PowerShell version produces the same output:
 
 ```powershell
 .\fibonacci.ps1 10
+55
+```
+
+The Haskell version also produces the same output:
+
+```console
+runghc fibonacci.hs 10
+55
+```
+
+Compile and run the Java version with:
+
+```console
+javac Fibonacci.java
+java Fibonacci 10
 55
 ```
 
